@@ -5,20 +5,26 @@ import sys
 
 
 def welcome():
-    print(f'{Fore.WHITE}\nWelcome to cCalculator {Fore.RED} By SoftAddict & ShellBreak \n')
+    print(f'{Fore.WHITE}\nWelcome to cCalculator {Fore.RED} By SoftAddict & ShellBreak')
     calculate()
 
 
 def calculate():
-    operation = input('''
+    print(f'''{Fore.RED}
     Please type in the math operation you would like to complete:
     + for addition
     - for subtraction
     * for multiplication
     / for division
     ** for power
-    % for modulo
-    ''')
+    % for modulo''')
+    operation = input('Operation: ')
+
+    operation_options = ['+', '-', '*', '/', '**', '%']
+    if operation not in operation_options:
+        print (f'\n{Fore.WHITE} Not an acceptable operator!')
+        calculate()
+
 
     try:
         number_1 = input(Fore.GREEN + 'Enter Your First Number: ' + Fore.WHITE)
@@ -56,25 +62,31 @@ def calculate():
             print('{} / {} = '.format(number_1, number_2))
             print(number_1 / number_2)
 
+	# Powers
+        elif operation == '**':
+            print('{} ^ {} = '.format(number_1, number_2))
+            print(number_1 ** number_2)
+
+        # Modulo
+        elif operation == '%':
+            print('{} % {} = '.format(number_1, number_2))
+            print(number_1 % number_2)
+
     except ValueError:
         print(Fore.RED + "Oh No! That's not a Number Enter a Number Please" + Fore.WHITE)
 
 
 def again():
-    calc_again = input(Fore.YELLOW + 'Do you want to calculate again? Please Type Y for YES or N for No: ' + Fore.WHITE)
-    if calc_again == 'Y' or calc_again == 'y':
+    yes_options = ['Y', 'y', 'yes', 'Yes', 'YES']
+    no_options = ['N', 'n', 'no', 'No', 'NO']
+    calc_again = input(Fore.YELLOW + 'Do you want to calculate again? (yes/no): ' + Fore.WHITE)
+    if calc_again in yes_options:
         calculate()
-    elif calc_again == 'N' or calc_again == 'n':
+    elif calc_again in no_options:
         print(Fore.BLUE + 'Sorry to See you go! Come Again' + Fore.WHITE)
-        sys.exit(1)
-    if calc_again.upper() == 'Y':
-        calculate()
-    elif calc_again.upper() == 'N':
-        print('See you later.')
         sys.exit(1)
     else:
         again()
-
 
 welcome()
 again()
