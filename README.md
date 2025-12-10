@@ -1,59 +1,76 @@
-CSEC Calculator v2.0 🧮
+🧮 CSEC Calculator v2.0
 
-A feature-rich, visually appealing terminal-based calculator with advanced mathematical, financial, and scientific capabilities. Perfect for students, engineers, finance professionals, and anyone who needs powerful calculations in a beautiful terminal interface.
+The Ultimate Terminal-Based Scientific Calculator
+
+⚡ Experience calculations like never before—powerful, beautiful, and packed with features! ⚡
 
 https://img.shields.io/badge/Python-3.6+-blue.svg
 https://img.shields.io/badge/License-MIT-green.svg
 https://img.shields.io/badge/Status-Stable-brightgreen.svg
-✨ Features
-🎯 Core Features
 
-    Basic Arithmetic: Addition, subtraction, multiplication, division, modulo, floor division
+🎬 What's New in V2.0?
+🌟 Visual & UI Enhancements
+Feature	Generic Calculator	CSEC Calculator V2.0
+Interface	Plain text prompts	🎭 Rich, color-coded terminal with colorama
+Feedback	Static results	🌀 Animated "Calculating..." sequence
+History	None or temporary	📜 Persistent 100-entry history (JSON saved)
+Special Inputs	Numbers only	🎯 ans, mem, pi, e smart keywords
+🔧 Technical & Feature Improvements
+Category	V2.0 Enhancements
+🚀 Capabilities	Scientific, Financial, Complex Numbers, Statistics, Unit Conversions
+🎯 Accuracy	Handles complex numbers, degree/radian modes, configurable precision (0-15 places)
+💾 Memory	Store, recall, add to, subtract from memory
+⚙️ Settings	Interactive menu for decimal places, scientific notation, angle mode toggles
+🚀 How to Get Started
+🎯 Prerequisites
+bash
 
-    Scientific Functions: Trigonometric (sin/cos/tan), logarithms, exponentials, factorials
+# Check if you have Python 3.6+
+🐍 python3 --version
 
-    Financial Calculations: Future Value, Present Value, Loan Payments (PMT)
+# Check for pip
+📦 pip --version
 
-    Complex Numbers: Operations in rectangular and polar forms
+⚡ Quick Installation
 
-    Statistical Analysis: Mean, median, mode, standard deviation, variance
+    Clone the repository
+    bash
 
-    Unit Conversions: Temperature, angle conversions
+📁 git clone https://github.com/Cyb0rgbytes/csecCalculator.git
+📂 cd csecCalculator
 
-    Memory Functions: Store, recall, add to memory
+Install the single dependency
+bash
 
-    Calculation History: Last 100 calculations with persistent storage
+💻 pip install colorama
 
-🎨 Visual Enhancements
+Or use the included requirements.txt:
+bash
 
-    Color-coded terminal output using colorama
+💻 pip install -r requirements.txt
 
-    Typing animation effects
+requirements.txt Content:
+txt
 
-    Organized, visually appealing menus
+colorama>=0.4.0
 
-    Real-time calculation display
+🎮 Usage Examples
+▶️ Running the Calculator
+bash
 
-⚙️ Smart Features
+# Run directly with Python
+🚀 python CSECCalculator-V2.py
 
-    Special inputs: ans (last answer), mem (memory), pi, e
+# Or make it executable (Linux/Mac)
+🔧 chmod +x CSECCalculator-V2.py
+🚀 ./CSECCalculator-V2.py
 
-    Configurable decimal places (0-15)
+🧩 Sample Session
+bash
 
-    Scientific notation toggle
-
-    Degree/Radian mode switching
-
-    Persistent history storage in JSON format
-
-📸 Preview
-text
-
-############################################################
 ############################################################
 Welcome to CSEC Calculator v2.0
 Made by Cyb0rgBytes
-############################################################
 ############################################################
 Advanced features:
 • Basic arithmetic & Scientific functions
@@ -63,262 +80,97 @@ Advanced features:
 • History & Memory functions
 ############################################################
 
-📦 Installation
-Prerequisites
-
-    Python 3.6 or higher
-
-    pip (Python package manager)
-
-Method 1: Using requirements.txt
-
-    Clone the repository
-    bash
-
-git clone https://github.com/Cyb0rgbytes/csecCalculator.git
-cd csecCalculator
-
-Install required packages
-bash
-
-pip install -r requirements.txt
-
-Method 2: Manual Installation
-
-    Clone the repository
-    bash
-
-git clone https://github.com/Cyb0rgbytes/csecCalculator.git
-cd csecCalculator
-
-Install the required package
-bash
-
-pip install colorama
-
-Method 3: Virtual Environment (Recommended)
-bash
-
-# Clone the repository
-git clone https://github.com/Cyb0rgbytes/csecCalculator.git
-cd csecCalculator
-
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
-
-# Install requirements
-pip install -r requirements.txt
-
-🚀 Quick Start
-
-Run the calculator:
-bash
-
-python CSECCalculator-V2.py
-
-Or make it executable:
-bash
-
-# On macOS/Linux
-chmod +x CSECCalculator-V2.py
-./CSECCalculator-V2.py
-
-# On Windows (run as script)
-python CSECCalculator-V2.py
-
-📖 Usage Guide
-Main Menu Options
-text
-
-1. Basic Operations      → +, -, *, /, **, %, sqrt, //
-2. Scientific Operations → sin/cos/tan, log/ln, exp, fact, perm/comb
-3. Financial Calculations→ FV, PV, PMT, NPER, RATE
-4. Complex Numbers      → +, -, *, /, polar/rectangular forms
-5. Statistics           → Mean, median, mode, std dev, variance
-6. Memory Operations    → Store, recall, add to memory
-7. Unit Conversions     → Temperature, angle conversions
-8. View History         → View last 100 calculations
-9. Settings             → Configure calculator options
-0. Exit                 → Exit the calculator
-
-Special Inputs
-
-    ans - Use the last calculated result
-
-    mem - Use the value stored in memory
-
-    pi - Use the value of π (3.14159...)
-
-    e - Use the value of e (2.71828...)
-
-Example Calculations
-
-Basic Arithmetic:
-text
-
 Select option (0-9): 1
 Operation: +
-Enter first number: 45
-Enter second number: 15
+Enter first number: ans
+Enter second number: pi
 
 Calculating...
-45 + 15 = 60.000000
+45 + 3.141593 = 48.141593
 
-Scientific Functions:
+📋 Full Command Menu
 text
 
-Select option (0-9): 2
-Operation: sin
-Enter angle: 90
+============================================================
+                         MAIN MENU
+============================================================
+1. Basic Operations      (+, -, *, /, **, %, sqrt, //)
+2. Scientific Operations (sin, cos, tan, log, ln, exp, fact)
+3. Financial Calculations(FV, PV, PMT, NPER, RATE)
+4. Complex Numbers      (+, -, *, /, polar, rect)
+5. Statistics           (mean, median, mode, stdev, variance)
+6. Memory Operations    (store, recall, clear, add, subtract)
+7. Unit Conversions     (deg2rad, rad2deg, c2f, f2c)
+8. View History         (Last 100 calculations)
+9. Settings             (Configure precision, notation, etc.)
+0. Exit
+============================================================
 
-Calculating...
-sin(90) = 1.000000
-
-Financial Calculation:
-text
-
-Select option (0-9): 3
-Operation: fv
-Present Value: 1000
-Interest rate per period (decimal): 0.05
-Number of periods: 10
-
-Calculating...
-FV(PV=1000.0, rate=0.05, n=10.0) = 1628.894627
-
-⚙️ Configuration
-
-Access settings from the main menu (option 9):
-
-    Decimal places: Set precision (0-15 decimal places)
-
-    Scientific notation: Toggle scientific notation on/off
-
-    Angle mode: Switch between DEGrees and RADians
-
-    History: Enable/disable calculation history
-
-    Clear history: Delete all saved calculations
-
+🏗️ Architecture & Features
 📁 File Structure
 text
 
 csecCalculator/
-├── CSECCalculator-V2.py     # Main calculator script
-├── requirements.txt         # Dependencies file
-├── calculator_history.json  # Auto-generated history file
-└── README.md               # This documentation
+├── CSECCalculator-V2.py      # 🧠 Main calculator application
+├── requirements.txt          # 📦 Single dependency file
+├── calculator_history.json   # 💾 Auto-saved calculation history
+└── README.md                # 📖 This file
 
-🔧 Requirements
+✨ Core Features in Detail
 
-Create a requirements.txt file with the following content:
-txt
+    🔢 Smart Input: Accepts numbers, ans (last answer), mem (memory value), pi, and e.
 
-colorama==0.4.6
+    🎨 Formatted Output: Configurable decimal places & automatic scientific notation.
 
-Or for minimal requirements:
-txt
+    📊 Financial Functions: Quickly compute Future Value (FV), Present Value (PV), and Loan Payments (PMT).
 
-colorama>=0.4.0
+    ➿ Complex Number Support: Full arithmetic and conversion between rectangular and polar forms.
 
-🐛 Troubleshooting
-Common Issues
+    📈 Statistical Suite: One-pass analysis: mean, median, mode, standard deviation, variance, min, max, range.
 
-    "ModuleNotFoundError: No module named 'colorama'"
-    bash
-
-pip install colorama
-
-Permission denied on macOS/Linux
-bash
-
-chmod +x CSECCalculator-V2.py
-
-Python not found
-bash
-
-python3 CSECCalculator-V2.py
-
-    History file corruption
-
-        Delete calculator_history.json to reset history
-
-Platform Notes
-
-    Windows: Works with Python installed from python.org or Microsoft Store
-
-    macOS: Use Python 3.6+ from Homebrew or python.org
-
-    Linux: Use your distribution's package manager to install Python 3
-
+🛠️ Troubleshooting
+Symptom	🩹 Solution
+"ModuleNotFoundError: No module named 'colorama'"	Install it: pip install colorama
+Permission denied on Linux/Mac	Run: chmod +x CSECCalculator-V2.py
+Python not found	Use python3 CSECCalculator-V2.py
+History file corruption	Delete calculator_history.json to reset
 🤝 Contributing
 
-Contributions are welcome! Here's how you can help:
-
-    Fork the repository
-
-    Create a feature branch
-    bash
-
-git checkout -b feature/AmazingFeature
-
-Commit your changes
+We 💖 contributions! Here's how you can help:
 bash
 
-git commit -m 'Add some AmazingFeature'
+# 1. Fork the repository
+🍴 Click "Fork" on GitHub
 
-Push to the branch
-bash
+# 2. Create a feature branch
+🌿 git checkout -b feature/AmazingFeature
 
-git push origin feature/AmazingFeature
+# 3. Commit your changes
+💾 git commit -m "Add AmazingFeature"
 
-    Open a Pull Request
+# 4. Push to the branch
+🚀 git push origin feature/AmazingFeature
 
-Development Setup
-bash
+# 5. Open a Pull Request
+🎉 Create PR on GitHub
 
-# Clone your fork
-git clone https://github.com/your-username/csecCalculator.git
-cd csecCalculator
+Areas for Contribution:
 
-# Set up development environment
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
+    🔢 Additional scientific/engineering functions
 
-📄 License
+    📐 More unit conversion categories
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-🙏 Acknowledgments
+    🎨 Enhanced UI/UX for the terminal
 
-    Colorama for cross-platform colored terminal text
+    📊 Extended financial calculation options
 
-    Python Standard Library for comprehensive mathematical functions
+📜 License
 
-    All contributors and users of CSEC Calculator
+MIT License
 
-👨‍💻 Author
+Copyright (c) 2024 Cyb0rgBytes
 
-Cyb0rgBytes
+For full license terms, see the LICENSE file.
 
-    GitHub: @Cyb0rgbytes
-
-    Project: CSEC Calculator
-
-🌟 Support
-
-If you find this project helpful, please consider:
-
-    Giving it a ⭐ on GitHub
-
-    Sharing it with others
-
-    Reporting issues or suggesting features
-
-Happy Calculating! 🎉 If you encounter any issues or have suggestions, please open an issue on the GitHub repository.
+Made with ❤️ by Cyb0rgBytes
+⚡ Happy Calculating! ⚡
