@@ -1,5 +1,5 @@
 🧮 CSEC Calculator 2.0 - The Ultimate Scientific Calculator
-<p align="center"> <img src="https://img.shields.io/badge/Version-2.0-brightgreen" alt="Version"> <img src="https://img.shields.io/badge/Python-3.7+-blue" alt="Python"> <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"> <img src="https://img.shields.io/badge/Author-Cyb0rgBytes-purple" alt="Author"> </p><p align="center"> ⚡ <strong>Revolutionizing network discovery with style, speed, and precision!</strong> ⚡ </p>
+<p align="center"> <img src="https://img.shields.io/badge/Version-2.0-brightgreen" alt="Version"> <img src="https://img.shields.io/badge/Python-3.6+-blue" alt="Python"> <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"> <img src="https://img.shields.io/badge/Author-Cyb0rgBytes-purple" alt="Author"> <img src="https://img.shields.io/badge/No_Dependencies-✅-green" alt="No Dependencies"> </p><p align="center"> 🔬 <strong>Professional-grade scientific calculator for students, engineers, and scientists!</strong> 🚀 </p>
 🎬 What's New in V2.0?
 🌟 Visual & UI Enhancements
 python
@@ -33,28 +33,6 @@ Layout	Basic	📐 Professional formatting
 🔧 Technical Improvements
 <table> <tr> <td width="50%">
 🏗️ Architecture
-
-graph TB
-    A[CSEC Calculator 2.0] --> B[Mathematical Engine]
-    A --> C[Memory System]
-    A --> D[User Interface]
-    
-    B --> B1[Basic Operations]
-    B --> B2[Scientific Functions]
-    B --> B3[Financial Engine]
-    B --> B4[Complex Arithmetic]
-    B --> B5[Statistics Module]
-    
-    C --> C1[RAM Memory]
-    C --> C2[JSON Storage]
-    C --> C3[History Manager]
-    C --> C4[Auto-save System]
-    
-    D --> D1[Menu Navigator]
-    D --> D2[Input Parser]
-    D --> D3[Output Formatter]
-    D --> D4[Error Handler]
-    D --> D5[Animation Engine]
 
     Before: Procedural spaghetti code
 
@@ -251,6 +229,29 @@ text
   5. FV(1000, 0.05, 5) = 1276.28
 
 🏗️ Architecture
+
+graph TB
+    A[CSEC Calculator 2.0] --> B[Mathematical Engine]
+    A --> C[Memory System]
+    A --> D[User Interface]
+    
+    B --> B1[Basic Operations]
+    B --> B2[Scientific Functions]
+    B --> B3[Financial Engine]
+    B --> B4[Complex Arithmetic]
+    B --> B5[Statistics Module]
+    
+    C --> C1[RAM Memory]
+    C --> C2[JSON Storage]
+    C --> C3[History Manager]
+    C --> C4[Auto-save System]
+    
+    D --> D1[Menu Navigator]
+    D --> D2[Input Parser]
+    D --> D3[Output Formatter]
+    D --> D4[Error Handler]
+    D --> D5[Animation Engine]
+
 📦 Module Structure
 text
 
