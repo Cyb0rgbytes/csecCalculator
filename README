@@ -1,110 +1,14 @@
-🧮 CSEC Calculator v2.0 - The Ultimate Scientific Calculator
+🧮 CSEC Calculator 2.0 - The Ultimate Scientific Calculator
 <p align="center"> <img src="https://img.shields.io/badge/Version-2.0-brightgreen" alt="Version"> <img src="https://img.shields.io/badge/Python-3.6+-blue" alt="Python"> <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"> <img src="https://img.shields.io/badge/Author-Cyb0rgBytes-purple" alt="Author"> <img src="https://img.shields.io/badge/No_Dependencies-✅-green" alt="No Dependencies"> </p><p align="center"> 🔬 <strong>Professional-grade scientific calculator for students, engineers, and scientists!</strong> 🚀 </p>
 🎬 What's New in V2.0?
-🌟 Architectural Revolution
+🌟 Visual & UI Enhancements
 python
 
-# V1.0: Procedural spaghetti code
-def calculate():
-    if operation == "+":
-        return num1 + num2
-    elif operation == "-":
-        # ... endless elif statements ...
-        
-# V2.0: Object-Oriented Excellence
-class CSECCalculator:
-    def __init__(self):
-        self.memory = 0
-        self.history = []
-        self.precision = 2
-    
-    def calculate(self, expression):
-        # Clean, modular, maintainable!
+# V1.0: Basic text output
+>>> 2 + 2
+4
 
-Aspect	V1.0	V2.0
-Architecture	Procedural spaghetti	🏗️ Object-Oriented Design
-Error Handling	Basic try-catch	🛡️ Comprehensive safety nets
-Code Structure	Monolithic function	📦 Modular, extensible classes
-Maintainability	Difficult	🔧 Easy to extend and debug
-✨ Feature Showcase
-<table> <tr> <td width="50%">
-🧮 Core Mathematics
-python
-
-# Advanced Operations Included:
-✅ Basic Arithmetic (+, -, ×, ÷, ^, %)
-✅ Scientific Functions (√, eˣ, log₁₀, ln)
-✅ Trigonometry (sin, cos, tan + inverses)
-✅ Complex Numbers (full arithmetic)
-✅ Statistics (mean, median, std dev)
-✅ Combinatorics (nPr, nCr, factorial)
-
-💾 Smart Memory System
-yaml
-
-Memory Features:
-  - Store/Recall/Add/Subtract/Clear
-  - Persistent JSON storage
-  - 100-operation history
-  - Special variables: ans, mem, π, e
-  - Auto-save on exit
-
-</td> <td width="50%">
-⚙️ Professional Tools
-yaml
-
-Configuration:
-  - Decimal precision (0-15 places)
-  - Scientific notation toggle
-  - DEG/RAD angle modes
-  - History management
-  - Unit conversions
-
-User Experience:
-  - Visual animations
-  - Color-coded menus
-  - Typing effects
-  - Progress indicators
-
-🎯 Target Audience
-python
-
-👨‍🎓 Students: Complete math toolkit
-👨‍💼 Professionals: Financial analysis
-👨‍🔬 Scientists: Advanced functions
-👨‍💻 Developers: Clean, extensible codebase
-
-</td> </tr> </table>
-🚀 Getting Started in 60 Seconds!
-⚡ Zero-Dependency Installation
-bash
-
-# Just download and run! No pip install needed! 🎉
-# Clone or download the Python file directly:
-
-# Option A: Direct Download
-⬇️ wget https://github.com/Cyb0rgBytes/CSEC-Calculator/raw/main/csec_calculator.py
-
-# Option B: Clone Repository
-📁 git clone https://github.com/Cyb0rgBytes/CSEC-Calculator.git
-📂 cd CSEC-Calculator
-
-# That's it! You're ready! 🎊
-
-🎮 Instant Usage
-bash
-
-# Run the calculator
-🚀 python3 csec_calculator.py
-
-# Or make it executable
-🔧 chmod +x csec_calculator.py
-💻 ./csec_calculator.py
-
-🎨 Beautiful Interface Preview
-Main Menu
-text
-
+# V2.0: Rich, animated interface
 ╔══════════════════════════════════════════════════════════════╗
 ║                   🧮 CSEC CALCULATOR v2.0                   ║
 ║              Professional Scientific Calculator              ║
@@ -121,55 +25,17 @@ text
 ║ [0] 🚪 Exit                                                 ║
 ╚══════════════════════════════════════════════════════════════╝
 
-Calculation Example
-python
-
-# Real calculator output:
-🔢 Enter calculation: 45 * sin(30) + (2^3)
-📊 Result: 53.0
-
-💡 Using special variables:
-🔢 Enter calculation: ans / mem + pi
-📊 Result: 18.141592653589793
-
-💰 Financial calculation:
-🔢 Enter: FV(1000, 0.05, 5)
-📊 Future Value: $1,276.28
-
-🔧 Complete Feature Breakdown
-🧮 Core Mathematical Engine
-<table> <tr> <th>Category</th> <th>Functions</th> <th>Example Usage</th> </tr> <tr> <td>🔢 Basic Math</td> <td>+ - × ÷ ^ % //</td> <td><code>15 * (3 + 4) ^ 2</code></td> </tr> <tr> <td>📐 Scientific</td> <td>√ log ln eˣ sin cos tan</td> <td><code>log(100) + sin(π/2)</code></td> </tr> <tr> <td>📊 Statistics</td> <td>mean median mode std dev</td> <td><code>mean(5, 10, 15, 20)</code></td> </tr> <tr> <td>💰 Finance</td> <td>FV PV PMT NPV IRR</td> <td><code>FV(1000, 0.05, 10)</code></td> </tr> <tr> <td>⚡ Complex</td> <td>+ - × ÷ conjugate polar</td> <td><code>(3+4j) * (1-2j)</code></td> </tr> </table>
-💾 Smart Memory System
-python
-
-# Memory operations available:
-💾 STORE: Save current result to memory
-📥 RECALL: Retrieve memory value
-➕ M+: Add to memory
-➖ M-: Subtract from memory
-🗑️  CLEAR: Reset memory to zero
-
-# Special variables:
-📊 ans = Last calculation result
-💾 mem = Current memory value
-📐 pi = 3.141592653589793
-📈 e = 2.718281828459045
-
-⚙️ Professional Configuration
-bash
-
-Settings Menu:
-  [1] Set Decimal Places (0-15)
-  [2] Toggle Scientific Notation
-  [3] Switch Angle Mode (DEG/RAD)
-  [4] Manage Calculation History
-  [5] Clear All Settings
-  [6] View Current Configuration
-
-🏗️ Technical Architecture
+Feature	V1.0	V2.0
+Interface	Plain text	🎭 Rich Terminal UI
+Animation	None	✨ Typing effects & progress
+Color Scheme	Monochrome	🎨 Color-coded menus
+Layout	Basic	📐 Professional formatting
+🔧 Technical Improvements
+<table> <tr> <td width="50%">
+🏗️ Architecture
 
 graph TB
-    A[CSEC Calculator v2.0] --> B[Core Engine]
+    A[CSEC Calculator 2.0] --> B[Mathematical Engine]
     A --> C[Memory System]
     A --> D[User Interface]
     
@@ -177,221 +43,290 @@ graph TB
     B --> B2[Scientific Functions]
     B --> B3[Financial Engine]
     B --> B4[Complex Arithmetic]
+    B --> B5[Statistics Module]
     
     C --> C1[RAM Memory]
-    C --> C2[Persistent Storage]
+    C --> C2[JSON Storage]
     C --> C3[History Manager]
+    C --> C4[Auto-save System]
     
-    D --> D1[Menu System]
+    D --> D1[Menu Navigator]
     D --> D2[Input Parser]
     D --> D3[Output Formatter]
     D --> D4[Error Handler]
+    D --> D5[Animation Engine]
 
+    Before: Procedural spaghetti code
 
-📦 Module Structure
-python
+    After: Object-Oriented Design
 
-csec_calculator.py
-├── CSECCalculator (Main Class)
-│   ├── __init__() - Initialize calculator state
-│   ├── basic_operations() - Handle + - × ÷
-│   ├── scientific_operations() - Handle √ log sin cos
-│   ├── financial_operations() - Handle FV PV PMT
-│   ├── complex_operations() - Handle complex numbers
-│   ├── memory_operations() - Manage memory system
-│   ├── statistics_operations() - Calculate stats
-│   ├── parse_input() - Advanced input parsing
-│   └── save_history() - Persistent storage
-└── main() - Entry point
+    Benefit: Better modularity and maintainability
 
-🎯 Use Cases & Examples
-For Students 📚
-python
+🛡️ Reliability
 
-# Solve homework problems:
-🔢 "Calculate the area of a circle with radius 5"
-💡 Input: pi * 5 ^ 2
-📊 Result: 78.53981633974483
+    Enhanced error handling
 
-# Trigonometric identities:
-🔢 "sin²(30) + cos²(30)"
-💡 Input: sin(30)^2 + cos(30)^2
-📊 Result: 1.0
+    Comprehensive input validation
 
-# Complex numbers homework:
-🔢 "(3+4i) * (2-5i)"
-💡 Input: (3+4j) * (2-5j)
-📊 Result: (26-7j)
+    Graceful error recovery
 
-For Professionals 👨‍💼
-python
+    Zero external dependencies
 
-# Financial analysis:
-🔢 "Future value of $1000 at 5% for 10 years"
-💡 Input: FV(1000, 0.05, 10)
-📊 Result: $1,628.89
+</td> <td width="50%">
+📦 Features
 
-# Engineering calculations:
-🔢 "Standard deviation of measurements: 10, 12, 15, 18"
-💡 Input: std_dev(10, 12, 15, 18)
-📊 Result: 3.304037933599835
+    Persistent JSON storage
 
-# Scientific research:
-🔢 "Natural log of 1000"
-💡 Input: ln(1000)
-📊 Result: 6.907755278982137
+    100-operation history
 
-For Developers 👨‍💻
-python
+    Configurable precision (0-15 decimal places)
 
-# Clean, extensible architecture:
-class CSECCalculator:
-    def add_operation(self, name, function):
-        """Easily add new operations"""
-        self.operations[name] = function
-    
-    def evaluate(self, expression):
-        """Safe evaluation with error handling"""
-        try:
-            return self.parse_and_calculate(expression)
-        except Exception as e:
-            return f"Error: {str(e)}"
+    Special variables: ans, mem, π, e
 
-🛡️ Safety & Reliability
-🔒 Input Security
-python
-
-# Robust input validation:
-✅ Validates numeric inputs
-✅ Handles special keywords (ans, mem, pi, e)
-✅ Prevents division by zero
-✅ Manages overflow/underflow
-✅ Graceful error recovery
-❌ No eval() usage - Safe from injection!
-
-💾 Data Protection
-yaml
-
-History Management:
-  - Automatic JSON backup
-  - 100-operation limit (prevents bloat)
-  - Encoded storage format
-  - Cross-platform compatibility
-  - No external dependencies
+    Unit conversions
 
 ⚡ Performance
+
+    Instant startup (< 0.5s)
+
+    Lightning-fast calculations
+
+    Efficient memory usage
+
+    Cross-platform compatibility
+
+</td> </tr> </table>
+✨ New Capabilities
+yaml
+
+📊 Advanced Mathematics:
+  - Complex number arithmetic
+  - Trigonometric functions (DEG/RAD)
+  - Statistical analysis
+  - Financial calculations
+
+💾 Smart Memory:
+  - Store/Recall/Add/Subtract/Clear
+  - Auto-save to JSON
+  - Calculation history
+  - Persistent variables
+
+⚙️ Configuration:
+  - Decimal precision control
+  - Scientific notation toggle
+  - Angle mode switching
+  - History management
+
+🚀 How to Get Started
+🎯 Zero-Installation Setup
 bash
 
-Benchmark Results:
-  • Startup time: < 0.5 seconds
-  • Calculation speed: < 0.01 seconds
-  • Memory usage: < 10MB
-  • History load: < 0.1 seconds for 100 entries
+# No pip install needed! 🎉 Just download and run!
 
-🔄 Migration from V1.0
-What's Changed?
-diff
+# Option A: Direct Download
+✨ curl -sSL https://github.com/Cyb0rgBytes/CSEC-Calculator/raw/main/csec_calculator.py -o calculator.py
 
-# Before (V1.0):
-- Procedural recursive functions
-- Limited error handling
-- No persistent storage
-- Basic input validation
+# Option B: Clone Repository
+📁 git clone https://github.com/Cyb0rgBytes/CSEC-Calculator.git
+📂 cd CSEC-Calculator
 
-# After (V2.0):
-+ Object-oriented design
-+ Comprehensive error handling
-+ JSON persistence
-+ Advanced input parsing
-+ Modular architecture
+# That's it! No dependencies! 🎊
 
-Upgrade Benefits
+⚡ One-Command Launch
+bash
+
+# Run immediately
+🚀 python3 csec_calculator.py
+
+# Or make it executable
+🔧 chmod +x csec_calculator.py
+💻 ./csec_calculator.py
+
+# Windows users
+🪟 python csec_calculator.py
+
+🔧 Quick Verification
+bash
+
+# Test if everything works
+✅ python3 -c "print('Calculator ready! 🎉')"
+
+# Quick calculation test
+🔢 python3 -c "import math; print(f'π = {math.pi}')"
+
+🎮 Usage Examples
+Basic Calculations
+bash
+
+# Run the calculator
+🚀 python3 csec_calculator.py
+
+# Then try these calculations:
+🔢 45 * sin(30) + (2^3)
+📊 Result: 53.0
+
+💡 Using special variables:
+🔢 ans / mem + pi
+📊 Result: 18.141592653589793
+
+💰 Financial calculation:
+🔢 FV(1000, 0.05, 5)
+📊 Future Value: $1,276.28
+
+Advanced Scans
+bash
+
+# Complete mathematical toolkit:
+🧮 Basic: 15 * (3 + 4) ^ 2
+📐 Scientific: log(100) + sin(π/2)
+📊 Statistics: mean(5, 10, 15, 20)
+💰 Finance: FV(1000, 0.05, 10)
+⚡ Complex: (3+4j) * (1-2j)
+
+Full Command Reference
+bash
+
+📖 Calculator Menu Options:
+
+🎯 Core Functions:
+  [1] 🧮 Basic Arithmetic (+, -, ×, ÷, ^, %, //)
+  [2] 🔬 Scientific (√, log, ln, eˣ, sin, cos, tan)
+  [3] 📊 Statistics (mean, median, mode, std dev)
+  [4] 💰 Financial (FV, PV, PMT, NPV, IRR)
+  [5] ⚡ Complex Numbers (full arithmetic)
+
+⚙️  Configuration:
+  [6] ⚙️  Settings (precision, notation, angle mode)
+  [7] 💾 Memory (store, recall, add, subtract, clear)
+  [8] 📜 History (view last 100 calculations)
+  [9] 🎯 Unit Conversions (DEG↔RAD, °C↔°F)
+  [0] 🚪 Exit (auto-saves everything)
+
+📊 Sample Output
+Interactive Calculation
+text
+
+╔══════════════════════════════════════════════════════════════╗
+║                   🧮 CSEC CALCULATOR v2.0                   ║
+║              Professional Scientific Calculator              ║
+╠══════════════════════════════════════════════════════════════╣
+
+🔢 Enter first number (or 'ans', 'mem', 'pi', 'e'): 45
+🔢 Enter second number (or 'ans', 'mem', 'pi', 'e'): 30
+🔢 Select operation:
+   [+] Addition
+   [-] Subtraction
+   [*] Multiplication
+   [/] Division
+   [^] Power
+   [%] Modulo
+   [//] Floor Division
+
+🎯 Choice: *
+📊 Result: 1350.0
+💾 Result saved to memory: Press 'R' to recall anytime!
+📜 Added to history: 45 * 30 = 1350.0
+
+Memory Operations
+text
+
+💾 Memory Management:
+┌─────────────────────────────────────────────┐
+│            Memory Operations               │
+├─────────────────────────────────────────────┤
+│ [S] Store current result (1350.0)          │
+│ [R] Recall memory value                    │
+│ [+] Add to memory                          │
+│ [-] Subtract from memory                   │
+│ [C] Clear memory                           │
+│ [V] View memory contents                   │
+└─────────────────────────────────────────────┘
+
+📊 Current Memory: 1350.0
+📈 Last 5 Calculations:
+  1. 45 * 30 = 1350.0
+  2. sin(90) = 1.0
+  3. log(100) = 2.0
+  4. mean(5,10,15) = 10.0
+  5. FV(1000, 0.05, 5) = 1276.28
+
+🏗️ Architecture
+📦 Module Structure
+text
+
+csec_calculator.py
+├── CSECCalculator Class
+│   ├── __init__() - Initialize state
+│   ├── run() - Main program loop
+│   ├── basic_operations() - + - × ÷
+│   ├── scientific_operations() - √ log sin cos
+│   ├── financial_operations() - FV PV PMT
+│   ├── complex_operations() - Complex math
+│   ├── statistics_operations() - Stats analysis
+│   ├── memory_operations() - Memory management
+│   ├── parse_input() - Smart input parsing
+│   ├── save_history() - JSON persistence
+│   └── load_history() - Restore previous state
+└── main() - Program entry point
+
+🛠️ Troubleshooting
+Common Issues & Solutions
+Symptom	🩹 Solution
+"Command not found"	Use python3 csec_calculator.py
+"No module named..."	Only standard library needed - check Python ≥3.6
+"Permission denied"	chmod +x csec_calculator.py
+"Invalid input"	Check special keywords: ans, mem, pi, e
+"History not loading"	Check write permissions in directory
+Debug Mode
 python
 
-# For Users:
-🎯 More reliable calculations
-💾 Persistent memory across sessions
-🎨 Better user interface
-⚡ Faster performance
+# Enable detailed error messages
+🐛 # The calculator automatically shows helpful error messages
 
-# For Developers:
-🔧 Easier to maintain
-📦 Modular architecture
-🚀 Simple to extend
-🐛 Easier to debug
+# Check Python version
+🔧 python3 --version
 
-🧪 Testing Your Installation
-Quick Verification
-bash
+# Verify file permissions
+📋 ls -la csec_calculator.py
 
-# Run these test calculations:
-✅ python3 -c "import csec_calculator; print('Calculator ready!')"
+# Test basic functionality
+✅ python3 -c "print(2+2)"
 
-# Test basic operations:
-🔢 2 + 2 = 4
-🔢 10 * 5 = 50
-🔢 sqrt(25) = 5
-🔢 sin(90) = 1 (in DEG mode)
-
-# Test memory:
-💾 Store 42, Recall should give 42
-📊 ans should contain last result
-
-Common Issues & Solutions
-Symptom	🩹 Fix
-"Command not found"	Use python3 csec_calculator.py
-"No module named..."	Only uses stdlib - check Python version
-"Permission denied"	chmod +x csec_calculator.py
-"Invalid input"	Check for special keywords: ans, mem, pi, e
 🤝 Contributing
 
-We ❤️ contributions! Here's how to help:
+We 💖 contributions! Here's how you can help:
 bash
 
 # 1. Fork the repository
 🍴 Click "Fork" on GitHub
 
-# 2. Clone your fork
-📁 git clone https://github.com/YOUR-USERNAME/CSEC-Calculator.git
-
-# 3. Create feature branch
+# 2. Create a feature branch
 🌿 git checkout -b feature/AmazingFeature
 
-# 4. Make your changes
-💻 # Remember: No external dependencies!
-
-# 5. Test thoroughly
-🧪 python3 csec_calculator.py
-
-# 6. Commit and push
+# 3. Commit your changes
 💾 git commit -m "Add AmazingFeature"
+
+# 4. Push to the branch
 🚀 git push origin feature/AmazingFeature
 
-# 7. Create Pull Request
-🎉 Open PR on original repository
+# 5. Open a Pull Request
+🎉 Create PR on GitHub
 
-🌟 Contribution Ideas
-yaml
+Areas for Contribution
 
-Mathematical Functions:
-  - Matrix operations
-  - Calculus functions
-  - Boolean algebra
-  - Number theory
+    🔍 Add more mathematical functions
 
-UI/UX Improvements:
-  - Color themes
-  - Keyboard shortcuts
-  - Graphical plots
-  - Mobile interface
+    🌐 Support for additional unit conversions
 
-Features:
-  - Programming mode
-  - Equation solver
-  - Graphing capabilities
-  - Unit conversion
+    📊 More statistical analysis tools
 
-📜 License & Attribution
+    🎨 UI/UX improvements
+
+    🔧 Performance optimizations
+
+    🐛 Bug fixes and documentation
+
+📜 License
 text
 
 MIT License
@@ -416,64 +351,23 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-🙏 Acknowledgments
-python
-
-Credits = {
-    "Original Concept": "cCalculator by SoftAddict & ShellBreak",
-    "Advanced Development": "Cyb0rgBytes",
-    "Testing & Feedback": "Community Contributors",
-    "Inspiration": "Scientific community needs",
-    "Special Thanks": "All users and supporters"
-}
-
-📞 Support & Community
-Getting Help
+✨ Pro Tips
 bash
-
-# Check existing issues
-🐛 https://github.com/Cyb0rgBytes/CSEC-Calculator/issues
-
-# Create new issue
-📝 Provide:
-  • Python version
-  • Operating system
-  • Steps to reproduce
-  • Expected vs actual behavior
-
-# Quick Questions
-💬 "How do I use complex numbers?"
-💬 "Where is my calculation history stored?"
-💬 "Can I add my own functions?"
-
-🌟 Pro Tips
-python
 
 # Use special variables efficiently:
 💡 "ans * 2"  # Double last result
 💡 "mem + 10" # Add 10 to memory
-💡 "pi * r^2" # Area of circle
+💡 "pi * r^2" # Area of circle formula
 
 # Chain calculations:
-🔢 "2 + 3 = 5"
-🔢 "ans * 4 = 20"
-🔢 "sqrt(ans) = 4.47213595499958"
+🔢 2 + 3 = 5
+🔢 ans * 4 = 20
+🔢 sqrt(ans) = 4.47213595499958
 
 # Financial shortcuts:
 💰 "FV(1000, 0.05, 5)"  # Compound interest
 💰 "PV(5000, 0.03, 10)" # Present value
-💰 "PMT(20000, 0.06, 5)" # Loan payment
-
-🎉 Final Words
-python
-
-print("Thank you for choosing CSEC Calculator v2.0!")
-print("Whether you're a student, professional, or developer,")
-print("this tool is designed to make complex calculations simple.")
-print()
-print("🔬 Calculate with confidence!")
-print("🚀 Innovate with precision!")
-print("🎯 Solve with elegance!")
+💰 "PMT(20000, 0.06, 5)" # Loan payments
 
 <p align="center"> <strong>Made with ❤️ and π by Cyb0rgBytes</strong><br> <sub>🔬 Calculate with Confidence! 🔬</sub> </p><p align="center"> <a href="https://github.com/Cyb0rgBytes/CSEC-Calculator">GitHub</a> • <a href="https://twitter.com/Cyb0rgBytes">Twitter</a> • <a href="https://cyb0rgbytes.tech">Website</a> </p>
 
