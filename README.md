@@ -4,9 +4,7 @@ The Ultimate Terminal-Based Scientific Calculator
 
 ⚡ Experience calculations like never before—powerful, beautiful, and packed with features! ⚡
 
-https://img.shields.io/badge/Python-3.6+-blue.svg
-https://img.shields.io/badge/License-MIT-green.svg
-https://img.shields.io/badge/Status-Stable-brightgreen.svg
+<p align="center"> <img src="https://img.shields.io/badge/Version-2.0-brightgreen" alt="Version"> <img src="https://img.shields.io/badge/Python-3.7+-blue" alt="Python"> <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"> <img src="https://img.shields.io/badge/Author-Cyb0rgBytes-purple" alt="Author"> </p><p align="center"> ⚡ <strong>Revolutionizing network discovery with style, speed, and precision!</strong> ⚡ </p>
 
 🎬 What's New in V2.0?
 🌟 Visual & UI Enhancements
